@@ -10,4 +10,5 @@ for (so = 'a' ; so <= 'z' ; so++)
 if (so != 'q' && so != 'e')
 putchar(so);
 putchar('\n');
-return (0);}
+return (0);
+}
