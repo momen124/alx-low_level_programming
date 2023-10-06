@@ -10,7 +10,7 @@ char so;
 for (so = 'a' ; so <= 'z' ; so++)
 putchar(so);
 for (so = 'A' ; so <= 'Z' ; so++) 
-putchar('\n');
 putchar(so);
+putchar('\n');
 return (0);
 }
