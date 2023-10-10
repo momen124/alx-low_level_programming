@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-    unsigned long fib1 = 0, fib2 = 1, sum = 0;  // Initialize sum to 0
-    unsigned long total_sum = 0;  // Initialize total_sum to 0 and change its type to unsigned long
-
+    unsigned long fib1 = 0, fib2 = 1, sum = 0;  
+    unsigned long total_sum = 0;  
     while (1)
     {
         sum = fib1 + fib2;
@@ -25,7 +24,7 @@ int main(void)
         fib2 = sum;
     }
 
-    printf("%lu\n", total_sum);  // Use %lu to print an unsigned long
+    printf("%lu\n", total_sum);  
 
     return (0);
 }
