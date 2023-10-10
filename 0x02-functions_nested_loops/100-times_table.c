@@ -13,7 +13,7 @@ if (n <= 15 && n >= 0)
 {
 for (num = 0 ; num <=n; ++num)
 {
-_puthcar(48);
+_puthchar(48);
 for (mult = 1 ; mult <=n; ++mult)
 {
 _puthcar(',');
@@ -23,7 +23,7 @@ if (prod <= 9)
 _puthcar(' ');
 if (prod <= 99)
 _puthcar(' ');
-if (prd >= 100)
+if (prod >= 100)
 {
 _puthcar((prod / 100) + 48);
 _puthcar((prod / 100) % 10 + 48);
