@@ -16,24 +16,24 @@ for (num = 0 ; num <=n; ++num)
 _puthchar(48);
 for (mult = 1 ; mult <=n; ++mult)
 {
-_puthcar(',');
-_puthcar(' ');
+_putchar(',');
+_putchar(' ');
 prod = num * mult ;
 if (prod <= 9)
-_puthcar(' ');
+_putchar(' ');
 if (prod <= 99)
-_puthcar(' ');
+_putchar(' ');
 if (prod >= 100)
 {
-_puthcar((prod / 100) + 48);
-_puthcar((prod / 100) % 10 + 48);
+_putchar((prod / 100) + 48);
+_putchar((prod / 100) % 10 + 48);
 }
 else if (prod <= 99 && prod >= 10)
 {
-_puthcar((prod / 10) + 48);
-_puthcar((prod % 10) + 48);
+_putchar((prod / 10) + 48);
+_putchar((prod % 10) + 48);
 }
-_puthcar('\n');
+_putchar('\n');
 }
 }
 }
