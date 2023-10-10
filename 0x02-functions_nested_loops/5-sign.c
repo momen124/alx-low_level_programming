@@ -3,7 +3,7 @@
 /**
  * print_sign - sign
  *
- * @n: takes integer type input for function 
+ * @n: takes integer type input for function
  *
  * Return: 1 if + & 0 if 0 & -1 if -.
  */
