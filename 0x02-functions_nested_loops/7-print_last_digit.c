@@ -6,7 +6,7 @@
 * @n: takes in integer type input function
 *
 * Return: last
-*
+*/
 int print_last_digit(int n)
 {
 int last;
