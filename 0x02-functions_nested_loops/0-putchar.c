@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - main function 
- *
- *
- * Return: Always 0.
- */
+* main - main function 
+*
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 char str[] = "_putchar";
