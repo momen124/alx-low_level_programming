@@ -1,7 +1,8 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * main - Entry point
+ *
+ * Description : prints _putcahr using putchar prototype 
  *
  * Return: Always 0.
  */
