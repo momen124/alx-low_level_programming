@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int print_sign - sign
+ * print_sign - sign
  *
  * Return: 1 if + & 0 if 0 & -1 if -.
  */
