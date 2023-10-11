@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> // Include for printf
+#include <stdio.h> 
 
 /**
  * numLength - returns the length of a number
