@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>  // Include the standard input/output library
+#include <stdio.h>  
 
 /**
  * main - entry point
