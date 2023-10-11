@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * numLength - returns the length of a number
@@ -10,22 +10,25 @@
 int numLength(unsigned long num)
 {
     int length = 0;
+
     if (num == 0)
-        return 1;
+        return (1);
 
     while (num > 0)
     {
         num = num / 10;
         length++;
     }
-    return length;
+
+    return (length);
 }
 
 /**
  * main - Entry point
  *
- * Description: prints the first 98 Fibonacci numbers.
- * starting with 1 and 2, followed
+ * Description: prints the first 98 Fibonacci numbers,
+ * starting with 1 and 2, followed by a newline.
+ *
  * Return: Always 0
  */
 int main(void)
@@ -60,5 +63,6 @@ int main(void)
         else
             printf("\n");
     }
+
     return (0);
 }
