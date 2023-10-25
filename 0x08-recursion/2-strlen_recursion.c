@@ -1,4 +1,4 @@
-#inculde "mian.h"
+#include "mian.h"
 
 /**
 * _strlen_recursion - return the length
