@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 
 /**
 *int factorial - print factorial 
