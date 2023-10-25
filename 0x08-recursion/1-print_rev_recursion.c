@@ -1,9 +1,8 @@
 #include "main.h"
 
 /*
- * _print_rev_recursion - print the stirng inverse
+ * _print_rev_recursion - prints the stirng revese 
  * @s: pointer to string
- *
  * Retrun void
  */
 void _print_rev_recursion(char *s)
