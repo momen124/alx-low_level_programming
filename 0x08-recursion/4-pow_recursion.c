@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_pow_recursion - give the pow of x to y 
+*_pow_recursion - give the pow of x to y
 *@x: int
 *@y: int
 *
@@ -16,5 +16,5 @@ else if (y == 1)
 return (x);
 else if (y == 0)
 return (1);
-return (x * _pow recursion(x, y -1));
+return (x * _pow recursion(x, y - 1));
 }
