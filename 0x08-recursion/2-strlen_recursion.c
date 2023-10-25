@@ -2,11 +2,9 @@
 
 /**
 * _strlen_recursion - return the length
-*@s: pointer to string 
-*
-*Return:intger
+* @s: pointer to string 
+* Return:intger
 */
-
 int _strlen_recursion(char *s)
 {
 int n = 0;
