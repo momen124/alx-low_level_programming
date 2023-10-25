@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * rev_recursion - print the stirng inverse
+ * _print_rev_recursion - print the stirng inverse
  * @s: pointer to string
  *
  * Retrun void
