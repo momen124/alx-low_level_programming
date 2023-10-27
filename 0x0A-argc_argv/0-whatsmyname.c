@@ -2,8 +2,8 @@
 
 /**
 * main - print program name , followed by a new lin
-* @argv: int
-* @argc: list
+* @argc: int
+* @argv: list
 * Return: 0
 */
 int main(int argc, char const *argv[])
