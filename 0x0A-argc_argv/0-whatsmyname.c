@@ -2,7 +2,7 @@
 
 /**
 * main - print program name , followed by a new lin
-* @argc: int
+* @argv: int
 * @argc: list
 * Return: 0
 */
