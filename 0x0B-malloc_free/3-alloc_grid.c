@@ -7,17 +7,18 @@
  * @height: height of the grid
  * Return: a 2D array
  */
-int **alloc_grid(int width, int height) {
+int **alloc_grid(int width, int height) 
+{
     int **tab, i, j;
     
     if (width < 0 || height < 0) {
-        return (NULL);
+        return NULL;
     }
 
     tab = malloc(sizeof(*tab) * height);
 
     if (tab == NULL) {
-        return (NULL); 
+        return NULL; // Memory allocation failed
     }
 
     for (i = 0; i < height; i++) {
@@ -29,7 +30,7 @@ int **alloc_grid(int width, int height) {
                 i--;
             }
             free(tab);
-            return (NULL); 
+            return NULL; // Memory allocation for a row failed
         }
 
         for (j = 0; j < width; j++) {
@@ -37,5 +38,5 @@ int **alloc_grid(int width, int height) {
         }
     }
 
-    return (tab);
+    return tab;
 }
