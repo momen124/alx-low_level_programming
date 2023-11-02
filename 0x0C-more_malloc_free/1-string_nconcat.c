@@ -1,47 +1,46 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * string_nconcat - concatenates two strings.
- * @s1: pointer to the first string.
- * @s2: pointer to the second string.
- * @n: number of bytes from s2 to concatenate.
+ * string_nconcat - a function that concatenates two strings.
  *
- * Return: pointer to the concatenated string, or NULL on failure.
+ * @s1: first char
+ * @s2: secound char
+ * @n: unsigned int
+ *
+ * Return: If the function fails, it should return NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-char *str;
-unsigned int i, j, s1_length, s2_length;
+	unsigned int x, y, z;
+	char *s;
 
-if (s1 == NULL)
-s1 = "";
-if (s2 == NULL)
-s2 = "";
-
-for (s1_length = 0; s1[s1_length] != '\0'; s1_length++)
-;
-
-for (s2_length = 0; s2[s2_length] != '\0'; s2_length++)
-;
-
-if (n >= s2_length)
-n = s2_length;
-
-str = malloc(s1_length + n + 1); // Assign separately
-
-if (str == NULL)
-return (NULL);
-
-for (i = 0; s1[i] != '\0'; i++)
-str[i] = s1[i];
-
-for (j = 0; j < n; j++)
-{
-str[i++] = s2[j];
-}
-
-str[i] = '\0';
-return (str);
+	if (s1 == NULL)
+	{
+		x = 0;
+	}
+	else
+	{
+		for (x = 0; s1[x]; ++x)
+		;
+	}
+	if (s2 == NULL)
+	{
+		y = 0;
+	}
+	else
+	{
+		for (y = 0; s2[y]; ++y)
+		;
+	}
+	if (y > n)
+		y = n;
+	s = malloc(sizeof(char) * (x + y + 1));
+	if (s == NULL)
+		return (NULL);
+	for (z = 0; z < x; z++)
+		s[z] = s1[z];
+	for (z = 0; z < y; z++)
+		s[z + x] = s2[z];
+	s[x + y] = '\0';
+	return (s);
 }
